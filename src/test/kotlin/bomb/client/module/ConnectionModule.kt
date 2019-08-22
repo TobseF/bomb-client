@@ -12,7 +12,8 @@ internal class ConnectionModule {
     @Test
     fun sendToBomb() {
         val message = ""
-        val bombResponse = bombClient.sendToBomb("login", message)
+        val bombResponse = bombClient.sendToBomb("connect", message)
+
 
         assertEquals(bombResponse.status, ResponseStatus.OK)
     }
