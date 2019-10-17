@@ -12,7 +12,7 @@ The deactivation commands are sent to an REST interface of the [Bomb-App](https:
 ## [📚 Bomb Instruction Manual](https://github.com/TobseF/its-exit-game-bomb/releases/download/v0.0.1/Bomb.Instruction.Manual.pdf)
 The players read the [Bomb Instruction Manual](https://github.com/TobseF/its-exit-game-bomb/releases/download/v0.0.1/Bomb.Instruction.Manual.pdf) which helps
 them to solve the included tests. Print it for them.  
-⚠ This README contains information which should not visible for the ExitGame players. 
+⚠ This README and the git repository contain information which should not visible for the ExitGame players. 
 
 ## 📱 Bomb App
 The players solve the puzzle by trigger unit tests which access the bombs REST API.
@@ -22,4 +22,4 @@ The players solve the puzzle by trigger unit tests which access the bombs REST A
   The admin UI which can change settings of the bomb an check the bombs state. This is of course not available for the players.
 
 ## 🚀 Start
-Run the [JUnit](https://junit.org/junit5/) test according the bomb manual.
+Run the [JUnit](https://junit.org/junit5/) test int the `Module` class according the bomb manual.
